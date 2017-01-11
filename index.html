@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="css/display.css" />
+  </head>
+  <body style='margin:0;padding:0'>
+  <h3>display属性依赖于相对位置的概念,相对位置指元素先对于网页其他元素进行定位.</h3>
+  <p>block:元素显示在下一行,作为一个新段落</p>
+  <div>
+    <div style='background-color:red;width:100px;height:100px'> </div>
+    <div style='background-color:green;width:100px;height:100px'> </div>
+  </div>
+  <p>inline-block:元素显示在当前段落内</p>
+  <div>
+    <div style='background-color:red;width:100px;height:100px;display:inline-block;margin:0;padding:0'> </div>
+    <div style='background-color:green;width:100px;height:100px;display:inline-block;margin:0;padding:0'> </div>
+  </div>
+  <p>inline-block:元素显示在当前段落内</p>
+  <div>
+    <div style='background-color:red;width:100px;height:100px;display:list-item;margin:0;padding:0'> </div>
+    <div style='background-color:green;width:100px;height:100px;display:list-item;margin:0;padding:0'> </div>
+  </div>
+
+  <h3>文本</h3>
+  <p style='text-align:center;'>这是一段居中文本</p>
+  <p style='text-indent:12px'>这是一段带缩进的文本</p>
+  <p style='font-family:Arial,sans-serif;font-size:30pt;font-style:italic;font-weight:medium'>这是一段带字体样式的问题</p>
+  <p style='line-height:1rem; height:2rem; background-color:red'>这是一段带line-height&height的文本</p>
+
+  <h3>span</h3>
+  <p>span实际上是伪标签,本身没有什么功能,只是制定添加的style属性将应用的范围,div和span之间唯一的区别是div是块元素,包含分行,而
+  span不包含,因此,要修改不分行的句子或者段落中的文本样式,必须使用span</p>
+  </body>
+</html>
