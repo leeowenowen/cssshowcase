@@ -29,5 +29,34 @@
   <h3>span</h3>
   <p>span实际上是伪标签,本身没有什么功能,只是制定添加的style属性将应用的范围,div和span之间唯一的区别是div是块元素,包含分行,而
   span不包含,因此,要修改不分行的句子或者段落中的文本样式,必须使用span</p>
+
+  <h3>img对齐</h3>
+  <p style='height:3rem;line-height:1rem;background-color:red;color:white'>
+    <img src='imgs/chat.png' style='width:2rem;height:2rem;vertical-align:text-top;'/>
+    hello people
+    <img src='imgs/right.png' style='width:2rem;height:2rem;vertical-align:text-top;'/>
+  </p>
+  <p style='height:3rem;line-height:1rem;background-color:blue;color:white'>
+    <img src='imgs/chat.png' style='width:2rem;height:2rem;vertical-align:text-bottom;'/>
+    hello people
+    <img src='imgs/right.png' style='width:2rem;height:2rem;vertical-align:text-bottom;'/>
+  </p>
+  <p style='height:3rem;line-height:1rem;background-color:red;color:white'>
+    <img src='imgs/chat.png' style='width:2rem;height:2rem;vertical-align:middle;'/>
+    hello people
+    <img src='imgs/right.png' style='width:2rem;height:2rem;vertical-align:middle;'/>
+  </p>
+  <div style='height:3rem;background-color:black;overflow:hidden'>
+      <div style='height:2rem;line-height:2rem;background-color:green;color:white;margin-top:0.5rem;'>
+        <img src='imgs/chat.png' style='width:2rem;height:2rem;vertical-align:middle;'/>
+        hello people
+        <img src='imgs/right.png' style='width:2rem;height:2rem;vertical-align:middle;'/>
+      </div>
+  </div>
+  <p style='height:3rem;line-height:1rem;background-color:blue;color:white;'>
+    <img src='imgs/chat.png' style='width:2rem;height:2rem;vertical-align:baseline;'/>
+    hello people
+    <img src='imgs/right.png' style='width:2rem;height:2rem;vertical-align:baseline;'/>
+  </p>
   </body>
 </html>
